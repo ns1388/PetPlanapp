@@ -18,7 +18,7 @@ struct ContentView: View {
         .padding()
     }
 }
-
+/Users/nsharma/Documents/PetPlanapp./PetPlan.xcodeproj
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

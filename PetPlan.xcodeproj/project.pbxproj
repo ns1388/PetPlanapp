@@ -7,13 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A982F2029CF6D5000B61648 /* k.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5A982F1129CF6D5000B61648 /* k.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5A982F2729CF6DA100B61648 /* PetPlan in Resources */ = {isa = PBXBuildFile; fileRef = 5A982F2629CF6DA100B61648 /* PetPlan */; };
+		5A982F2929CF6ED000B61648 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A982F2829CF6ED000B61648 /* ContentView.swift */; };
+		5A982F2B29CF6EED00B61648 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A982F2A29CF6EED00B61648 /* ContentView.swift */; };
 		8D1E862329BCFBB1000364B0 /* PetPlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E862229BCFBB1000364B0 /* PetPlanApp.swift */; };
 		8D1E862529BCFBB1000364B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E862429BCFBB1000364B0 /* ContentView.swift */; };
 		8D1E862729BCFBB2000364B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D1E862629BCFBB2000364B0 /* Assets.xcassets */; };
 		8D1E862B29BCFBB2000364B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D1E862A29BCFBB2000364B0 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5A982F1E29CF6D5000B61648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D1E861729BCFBB0000364B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A982F1029CF6D5000B61648;
+			remoteInfo = k;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5A982F2429CF6D5000B61648 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5A982F2029CF6D5000B61648 /* k.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5A982F1129CF6D5000B61648 /* k.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = k.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A982F2629CF6DA100B61648 /* PetPlan */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PetPlan; path = ../../../../Desktop/PetPlan/PetPlan; sourceTree = "<group>"; };
+		5A982F2829CF6ED000B61648 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../Desktop/PetPlan/PetPlan/ContentView.swift; sourceTree = "<group>"; };
+		5A982F2A29CF6EED00B61648 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../Desktop/PetPlan/PetPlan/ContentView.swift; sourceTree = "<group>"; };
 		8D1E861F29BCFBB1000364B0 /* PetPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1E862229BCFBB1000364B0 /* PetPlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPlanApp.swift; sourceTree = "<group>"; };
 		8D1E862429BCFBB1000364B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +55,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5A982F0E29CF6D5000B61648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D1E861C29BCFBB0000364B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,9 +72,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A982F0C29CF6D1B00B61648 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		5A982F2529CF6D8100B61648 /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+				5A982F2629CF6DA100B61648 /* PetPlan */,
+				8D1E862429BCFBB1000364B0 /* ContentView.swift */,
+			);
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
 		8D1E861629BCFBB0000364B0 = {
 			isa = PBXGroup;
 			children = (
+				5A982F2829CF6ED000B61648 /* ContentView.swift */,
 				8D1E862129BCFBB1000364B0 /* PetPlan */,
 				8D1E862029BCFBB1000364B0 /* Products */,
 			);
@@ -45,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1E861F29BCFBB1000364B0 /* PetPlan.app */,
+				5A982F1129CF6D5000B61648 /* k.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,7 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				8D1E862229BCFBB1000364B0 /* PetPlanApp.swift */,
-				8D1E862429BCFBB1000364B0 /* ContentView.swift */,
+				5A982F2A29CF6EED00B61648 /* ContentView.swift */,
+				5A982F2529CF6D8100B61648 /* New Group1 */,
+				5A982F0C29CF6D1B00B61648 /* New Group */,
 				8D1E862629BCFBB2000364B0 /* Assets.xcassets */,
 				8D1E862829BCFBB2000364B0 /* PetPlan.entitlements */,
 				8D1E862929BCFBB2000364B0 /* Preview Content */,
@@ -72,6 +131,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5A982F1029CF6D5000B61648 /* k */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A982F2129CF6D5000B61648 /* Build configuration list for PBXNativeTarget "k" */;
+			buildPhases = (
+				5A982F0D29CF6D5000B61648 /* Sources */,
+				5A982F0E29CF6D5000B61648 /* Frameworks */,
+				5A982F0F29CF6D5000B61648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = k;
+			productName = k;
+			productReference = 5A982F1129CF6D5000B61648 /* k.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		8D1E861E29BCFBB0000364B0 /* PetPlan */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D1E862E29BCFBB2000364B0 /* Build configuration list for PBXNativeTarget "PetPlan" */;
@@ -79,10 +155,12 @@
 				8D1E861B29BCFBB0000364B0 /* Sources */,
 				8D1E861C29BCFBB0000364B0 /* Frameworks */,
 				8D1E861D29BCFBB0000364B0 /* Resources */,
+				5A982F2429CF6D5000B61648 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5A982F1F29CF6D5000B61648 /* PBXTargetDependency */,
 			);
 			name = PetPlan;
 			productName = PetPlan;
@@ -99,6 +177,9 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					5A982F1029CF6D5000B61648 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					8D1E861E29BCFBB0000364B0 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -118,15 +199,24 @@
 			projectRoot = "";
 			targets = (
 				8D1E861E29BCFBB0000364B0 /* PetPlan */,
+				5A982F1029CF6D5000B61648 /* k */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5A982F0F29CF6D5000B61648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D1E861D29BCFBB0000364B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A982F2729CF6DA100B61648 /* PetPlan in Resources */,
 				8D1E862B29BCFBB2000364B0 /* Preview Assets.xcassets in Resources */,
 				8D1E862729BCFBB2000364B0 /* Assets.xcassets in Resources */,
 			);
@@ -135,18 +225,93 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5A982F0D29CF6D5000B61648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D1E861B29BCFBB0000364B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8D1E862529BCFBB1000364B0 /* ContentView.swift in Sources */,
 				8D1E862329BCFBB1000364B0 /* PetPlanApp.swift in Sources */,
+				5A982F2B29CF6EED00B61648 /* ContentView.swift in Sources */,
+				5A982F2929CF6ED000B61648 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5A982F1F29CF6D5000B61648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A982F1029CF6D5000B61648 /* k */;
+			targetProxy = 5A982F1E29CF6D5000B61648 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		5A982F2229CF6D5000B61648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = k/k.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U9CX2HM6W7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = k/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = k;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.PetPlan.k;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5A982F2329CF6D5000B61648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = k/k.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U9CX2HM6W7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = k/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = k;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.PetPlan.k;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		8D1E862C29BCFBB2000364B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -335,6 +500,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5A982F2129CF6D5000B61648 /* Build configuration list for PBXNativeTarget "k" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A982F2229CF6D5000B61648 /* Debug */,
+				5A982F2329CF6D5000B61648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8D1E861A29BCFBB0000364B0 /* Build configuration list for PBXProject "PetPlan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
